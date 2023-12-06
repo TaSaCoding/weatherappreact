@@ -6,7 +6,7 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <Weather defaultCity="Cologne"/>
+        <Weather defaultCity="Cologne" />
         <footer>
           This project was coded by{" "}
           <a
@@ -16,15 +16,22 @@ export default function App() {
           >
             Tanja Sauer
           </a>
-          {""} and is {""}
+          {""} ,is open-soured on {""}
           <a
             href="https://github.com/TaSaCoding/weatherappreact.git"
             target="_blank"
             rel="noreferrer"
           >
-            open-soured
+            GitHub
           </a>{" "}
-          on GitHub
+          and hosted on{" "}
+          <a
+            href="https://tsd-weatherapp-react.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Netlify
+          </a>
         </footer>
       </div>
     </div>

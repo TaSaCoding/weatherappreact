@@ -1,9 +1,19 @@
 .App {
   max-width: 600px;
-  margin: 0px auto;
+  margin: 150px auto;
 }
 
 .App footer {
+  text-align: center;
   font-size: 12px;
-  margin: 15px 0;
+  margin: 50px 0 0 0;
+}
+.container {
+  background-color: #ffffff;
+  border: 4px solid #dadde1;
+  padding: 25px;
+  border-radius: 15px;
+}
+body {
+  background-color: #a9a6aa;
 }
